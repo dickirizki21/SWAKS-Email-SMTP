@@ -35,19 +35,10 @@ swaks --pipeline -tls --server server.host.co.id --port 587 --auth-user 'akun.us
 ```
 swaks --pipeline -tls --server server.host.co.id --port 587 --auth-user 'akun.user.co.id' --auth-pass 'passwordakunrelay' --from 'dicki@gmail.com' --to 'rizki@gmail.com' --header "To: rizki@gmail.com" --header 'Subject: Send Email With SWAKS' --attach-body '/path/to/file.html'
 ```
- 3. Kirim email dengan attachment HTML menggunakan SWAKS
-##### Buat file dengan format html dan salin kode berikut.
-``` html
-<!DOCTYPE html>
-<html>
-<body>
-
-<h1>Send Mail With SWAKS</h1>
-
-<p>THis is file HTML</p>
-
-</body>
-</html>
+ 3. Kirim email dengan attachment .TXT menggunakan SWAKS
+##### Buat file dengan format txt dan salin kata-kata berikut.
+```
+Ini merupakan isi dari file .txt sebagai attahment dalam mengirim email menggunakan SWAKS
 ```
 ##### Jika sudah jalankan perintah berikut di terminal. untuk host, username, dan password akun relay bisa disesuaikan.
 ```
