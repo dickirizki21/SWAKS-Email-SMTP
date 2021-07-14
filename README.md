@@ -42,5 +42,5 @@ Ini merupakan isi dari file .txt sebagai attahment dalam mengirim email mengguna
 ```
 ##### Jika sudah jalankan perintah berikut di terminal. untuk host, username, dan password akun relay bisa disesuaikan.
 ```
-swaks --pipeline -tls --server server.host.co.id --port 587 --auth-user 'akun.user.co.id' --auth-pass 'passwordakunrelay' --from 'dicki@gmail.com' --to 'rizki@gmail.com' --header "To: rizki@gmail.com" --header 'Subject: Send Email With SWAKS' --body 'Isi body swaks dengan attachment file htlm' --attach '/path/to/file.html'
+swaks --pipeline -tls --server server.host.co.id --port 587 --auth-user 'akun.user.co.id' --auth-pass 'passwordakunrelay' --from 'dicki@gmail.com' --to 'rizki@gmail.com' --header "To: rizki@gmail.com" --header 'Subject: Send Email With SWAKS' --body 'Isi body swaks dengan attachment file htlm' --attach '/path/to/file.txt'
 ```
